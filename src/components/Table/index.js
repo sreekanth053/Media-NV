@@ -7,7 +7,7 @@ const Table = () => {
 
     const data = [
     {
-      bidNumberCreatedBy: "#122345678123 Sunder Yoderw",
+      bidNumberCreatedBy: "#122345678123 Sunder Yoder",
       startDate: "14/02/2024",
       startTime: "05:40 F",
       bidTimeRemaining: "7hr 20 min",
