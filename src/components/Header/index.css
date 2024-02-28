@@ -41,7 +41,7 @@
 
 .link {
   text-decoration: none;
-  color: #000; /* Set your default text color */
+  color: #000;
   position: relative;
 }
 
@@ -50,21 +50,18 @@
 }
 
 .link.active {
-  /* color: #FF007F; */
-  /* background-color: #0D6EFD; */
- /* Set your active text color */
  font-weight: 500;
 }
 
 .link::after {
   content: '';
   display: block;
-  height: 0.1px; /* Set the height of the underline */
+  height: 0.1px;
   width: 0;
-  background-color: #FF007F; /* Set the color of the underline */
+  background-color: #FF007F;
   position: absolute;
-  bottom: -1px; /* Set the space between the text and the underline */
-  transition: width 0.1s; /* Set the transition duration */
+  bottom: -1px;
+  transition: width 0.1s;
 }
 
 .link.active::after {

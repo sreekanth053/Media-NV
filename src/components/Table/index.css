@@ -18,3 +18,9 @@
     background-color: #f5f5f5;
   }
   
+  .viewdetails-button{
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: rgb(32, 105, 241);
+  }

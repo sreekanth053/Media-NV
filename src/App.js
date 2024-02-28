@@ -1,6 +1,4 @@
 import './App.css';
-// import Header from './components/Header'
-// import Navbar from './components/Navbar/Navbar';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
@@ -18,7 +16,6 @@ function App() {
   return (
     <>
     <Router>
-    {/* <Header/> */}
     <Sidebar>
       <Routes>
         <Route path='/' Component={Bid}/>

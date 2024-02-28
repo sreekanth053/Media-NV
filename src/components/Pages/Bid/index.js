@@ -1,11 +1,11 @@
 import React from 'react'
+import Table from '../../Table'
 
-function Bid() {
+export default function Bid() {
   return (
     <div>
-      bid 
+      <Table/>
     </div>
   )
 }
 
-export default Bid;

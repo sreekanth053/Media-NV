@@ -1,6 +1,4 @@
-.dashboard{
-    
-}
+
 .dashboard-container{
     margin: 0;
     
@@ -61,10 +59,10 @@
     align-items: center;
     margin: 20px;
     border-radius: 25px;
-    color: #0D6EFD;
-    font-weight: 600;
+    color: rgb(1, 44, 138);
+    font-weight: 500;
     background: #ffffff;
-    border: 0.5px normal black;
+    border: 1px normal rgb(1, 44, 138);
 }
 
 .selections{
@@ -78,7 +76,36 @@
 }
 
 .filter-logo{
-    color: #0D6EFD;
+    color:rgb(1, 44, 138);
     font-size: 20px;
     margin-right: 10px;
+}
+
+.table-heading-1{
+    color: #0D6EFD;
+}
+.table-heading-2{
+    color: green;
+}
+.table-heading-3{
+    color: red;
+}
+
+.table-heading-5{
+    font-weight: 500;
+    color: black;
+}
+.table-heading-6{
+    color: lightblack;
+    font-weight: 100;
+}
+.table-heading-7{
+    color: lightblack;
+    font-weight: 100;
+}
+
+.selections{
+    color: rgb(1, 44, 138);
+    font-weight: 500;
+    border: 1px solid rgb(1, 44, 138);
 }

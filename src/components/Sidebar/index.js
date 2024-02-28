@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './index.css';
-import Header from '../Header';  // Adjust the path based on the actual location of Header.js
+import Header from '../Header';
 import { CiGrid42 } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 
