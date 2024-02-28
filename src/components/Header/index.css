@@ -1,0 +1,73 @@
+.header{
+    margin: 0;
+    height: 50px;
+    background: #ffffff;
+    box-shadow: 1px 1px 0px 0px #0d0d0d;
+    min-width: 80vw;
+    max-width: 1000vw;
+    display: flex;
+    justify-content: flex-end;
+    align-content: right;
+    color: black;
+    border: 0px solid;
+    padding: 0px;
+    box-shadow: 0px 1px #f5e6e6;
+    height: 6.6vh;
+    width: 100vw;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-text{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+.profile-name{
+    margin: 10px;
+}
+
+
+/*on click event css*/
+
+.link {
+  text-decoration: none;
+  color: #000; /* Set your default text color */
+  position: relative;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link.active {
+  /* color: #FF007F; */
+  /* background-color: #0D6EFD; */
+ /* Set your active text color */
+ font-weight: 500;
+}
+
+.link::after {
+  content: '';
+  display: block;
+  height: 0.1px; /* Set the height of the underline */
+  width: 0;
+  background-color: #FF007F; /* Set the color of the underline */
+  position: absolute;
+  bottom: -1px; /* Set the space between the text and the underline */
+  transition: width 0.1s; /* Set the transition duration */
+}
+
+.link.active::after {
+  width: 90%;
+}
+

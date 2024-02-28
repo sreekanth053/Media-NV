@@ -1,0 +1,143 @@
+.sidebar_navbar{
+    display: flex;
+    justify-self: flex-start;
+}
+
+.sidebar-container{
+  display: flex;
+  flex-direction: column;
+  border: 0px solid;
+  padding: 1px;
+  box-shadow: 1px 0px #f5e6e6;
+  min-height: 100vh;
+  max-height: 1000vh;
+  margin-right:1px;
+  width: 15vw;
+}
+.sidebar-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+    
+}
+.top-section{
+    display: flex;
+    margin:20px ;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background: black;
+    border-radius: 50px;
+}
+.logo-heding{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.sidebar-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 30px;
+    
+}
+.link-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.link_text{
+    font-weight: 500;
+    height: 40px;
+    width: 120px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+
+
+/* .link_text:hover{
+    background:#0D6EFD;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+} */
+
+
+.nav-menu{
+    background-color:#f3ededb2;
+}
+
+.nav-menu.active{
+    transition: 350ms;
+}
+
+/*on click event css*/
+
+.link-1,
+.link-2 {
+  text-decoration: none;
+  color: black; /* Set your default text color */
+  position: relative;
+  height: 40px;
+  width: 120px;
+  padding-bottom: 10px;
+ 
+}
+
+/* .link-1:hover,
+.link-2:hover {
+  text-decoration: none;
+} */
+
+.link-1.active,
+.link-2.active {
+  color: #ffffff;
+  background-color:lightskyblue;
+  border-radius: 10px; /* Set your active text color */
+
+}
+
+.link-1::after,
+.link-2::after {
+  content: '';
+  color: #ffffff;
+  display: block;
+  height: 0.5px; /* Set the height of the underline */
+  width: 0;
+  background-color: lightskyblue; /* Set the color of the underline */
+  position: absolute;
+  bottom: -1px; /* Set the space between the text and the underline */
+  transition: width 0.3s; /* Set the transition duration */
+}
+
+.link-1.active::after{
+  width: 0%;
+}
+.link-2.active::after{
+    width: 0%;
+}
+
+.link-1.active{
+    color: #ffffff;
+}
+
+
+/* .link_text.active{
+    color: #ffffff;
+    font-weight: 500;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10px;
+} */
